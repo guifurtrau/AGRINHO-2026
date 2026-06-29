@@ -1,0 +1,90 @@
+/* Configurações gerais de cores (Tons de verde para lembrar natureza) */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f9f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2e7d32; /* Verde forte */
+    color: white;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.card {
+    background: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #2e7d32;
+}
+
+/* Estilo para as imagens geradas por IA */
+.imagens-ia {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.foto-box {
+    text-align: center;
+    background: #e8f5e9;
+    padding: 10px;
+    border-radius: 6px;
+    width: 45%;
+    min-width: 200px;
+    margin-bottom: 10px;
+}
+
+.foto-box img {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+/* Estilo do testador de senhas */
+.validador-senha input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.validador-senha button {
+    padding: 10px 15px;
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.validador-senha button:hover {
+    background-color: #1b5e20;
+}
+
+#resultadoTexto {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    font-size: 0.9rem;
+}
